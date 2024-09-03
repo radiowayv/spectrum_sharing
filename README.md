@@ -10,6 +10,7 @@
 - [Contributors](#contributors)
 - [License](#license)
 - [Contact](#contact)
+- [Dynamic Spectrum Sharing](#dynamic-spectrum-sharing)
 
 ## About
 This repository contains a collection of Jupyter notebooks to be shared with colleagues.
@@ -45,5 +46,11 @@ No license is given to use this code.
  
 ## Contact
 joe_attanasio@comcast.com
+
+## Dynamic Spectrum Sharing 
+Click the button below to launch the Dynamic Spectrum Sharing utility.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/radiowayv/spectrum_sharing/HEAD?labpath=Draft_DSS_Algorithm.ipynb)
+
 
 Project Link: [https://github.com/radiowayv/spectrum_sharing](https://github.com/radiowayv/spectrum_sharing)
