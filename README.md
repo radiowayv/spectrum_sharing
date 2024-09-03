@@ -7,7 +7,7 @@
   - [Installation](#installation)
 - [Usage](#usage)
 - [Notebook Descriptions](#notebook-descriptions)
-- [Contributing](#contributing)
+- [Contributors](#contributors)
 - [License](#license)
 - [Contact](#contact)
 
@@ -37,8 +37,8 @@ To use these notebooks, you'll need:
 - `Draft_DSS_Algorithm`: working copy of the code for a closed-loop Dynamic Spectrum Sharing algorithm
 - More notebooks to come
 
-## Contributing
-Please do not modify or fork the code in this repository
+## Contributors
+Please do not clone, modify, or fork the code in this repository
 
 ## License
 No license is given to use this code. 
