@@ -5,6 +5,13 @@
 
 # If you're using JupyterLab, also install the extension
 # pip install jupyterlab-server-proxy
+# Install packages
+pip install numpy
+python -c "import numpy; print(numpy.__version__)"
+pip install pandas
+python -c "import pandas; print(numpy.__version__)"
+pip install matplotlib
+python -c "import matplotlib; print(numpy.__version__)"
 
 # Install and enable Voila
 pip install voila
