@@ -13,9 +13,9 @@
 - [Dynamic Spectrum Sharing](#dynamic-spectrum-sharing)
 
 ## About
-This repository contains a collection of Jupyter notebooks to be shared with colleagues.
+3 September 2024<br>
+This repository contains a collection of Jupyter notebooks to be shared with colleagues.<br>
 These notebooks are intended to facilitate collaboration, knowledge sharing, and analysis of spectrum sharing techniques.
-3 September 2024
 
 ## Getting Started
 
