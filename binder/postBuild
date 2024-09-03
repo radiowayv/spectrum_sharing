@@ -16,6 +16,10 @@ jupyter serverextension enable voila --sys-prefix
 # If you want to use Voila in JupyterLab
 jupyter labextension install @jupyter-voila/jupyterlab-preview
 
+# Check NumPy dependencies
+pip list
+pip check numpy
+
 # Optionally, if you need specific Voila templates
 # pip install voila-materialstream
 # pip install voila-vuetify
