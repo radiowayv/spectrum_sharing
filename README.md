@@ -38,7 +38,7 @@ To use these notebooks, you'll need:
 - More notebooks to come
 
 ## Contributors
-Please do not clone, modify, or fork the code in this repository
+Please do not clone, modify, or fork the code in this repository.  Contact me first.
 
 ## License
 No license is given to use this code. 
