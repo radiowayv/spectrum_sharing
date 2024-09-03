@@ -1,4 +1,27 @@
 #!/bin/bash
-jupyter serverproxy_setup --sys-prefix
+
+# Install jupyter-server-proxy
+pip install jupyter-server-proxy
+
+# If you're using JupyterLab, also install the extension
+pip install jupyterlab-server-proxy
+
+# Enable the notebook extension for interactive widgets
 jupyter nbextension enable --py widgetsnbextension
-jupyter serverproxy_setup --sys-prefix
+
+# Install and enable Voila
+pip install voila
+jupyter serverextension enable voila --sys-prefix
+
+# If you want to use Voila in JupyterLab
+jupyter labextension install @jupyter-voila/jupyterlab-preview
+
+# Optionally, if you need specific Voila templates
+# pip install voila-materialstream
+# pip install voila-vuetify
+
+# Clean up (optional, but can help reduce image size)
+jupyter lab clean
+jlpm cache clean
+pip cache purge
+rm -rf ~/.cache/yarn
