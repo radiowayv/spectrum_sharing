@@ -1,0 +1,4 @@
+!#/bin/bash
+jupyter serverproxy_setup --sys-prefix
+jupyter nbextension enable --py widgetsnbextension
+jupyter serverproxy_setup --sys-prefix
