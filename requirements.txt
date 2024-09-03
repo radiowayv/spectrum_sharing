@@ -1,3 +1,6 @@
+jupyter-server-proxy
+jupyterlab-server-proxy
+voila
 math
 numpy
 pandas
