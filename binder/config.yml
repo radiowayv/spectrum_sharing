@@ -1,0 +1,2 @@
+repo2docker:
+  use_conda: true
