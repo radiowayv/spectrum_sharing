@@ -8,6 +8,7 @@ conda activate notebook
 
 echo "Conda environment information:"
 conda info
+echo "Conda list:"
 conda list
 
 echo "Python version:"
