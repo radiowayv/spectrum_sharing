@@ -4,7 +4,7 @@ set -e
 echo "Activating conda environment..."
 source /srv/conda/etc/profile.d/conda.sh
 conda info --envs
-conda activate myenv
+conda activate notebook
 
 echo "Conda environment information:"
 conda info
