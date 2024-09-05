@@ -20,6 +20,8 @@ echo "Importing and checking pandas:"
 python -c "import pandas; print('Pandas version:', pandas.__version__)"
 echo "Importing and checking matplotlib:"
 python -c "import matplotlib; print('Matplotlib version:', matplotlib.__version__)"
+echo "Importing and checking ipywidgets:"
+python -c "import ipywidgets; print('IPyWidgets version:', ipywidgets.__version__)"
 
 # Print package versions for debugging
 #pip list
