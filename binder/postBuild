@@ -2,14 +2,19 @@
 set -e
 
 # Activate the conda environment
-source /srv/conda/etc/profile.d/conda.sh
-conda activate notebook
+#source /srv/conda/etc/profile.d/conda.sh
+#conda activate notebook
 
-# Print Python and package versions for debugging
+# Print Python version
 python --version
+
+# Install required packages
+pip install -r requirements.txt
+
+# Print package versions for debugging
 pip list
 
-# Check package versions
+Check package versions
 python -c "import numpy; print(numpy.__version__)"
 python -c "import pandas; print(pandas.__version__)"
 python -c "import matplotlib; print(matplotlib.__version__)"
