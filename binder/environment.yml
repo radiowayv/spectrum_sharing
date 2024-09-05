@@ -1,0 +1,11 @@
+name: notebook
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy=2.1.1
+  - pandas=2.2.2
+  - matplotlib=3.9.2
+  - ipywidgets=8.1.5
+  - voila
