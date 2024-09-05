@@ -1,15 +1,15 @@
 #!/bin/bash
 set -e
 
-echo "Activating conda environment..."
-source /srv/conda/etc/profile.d/conda.sh
-conda info --envs
-conda activate notebook
+#echo "Activating conda environment..."
+#source /srv/conda/etc/profile.d/conda.sh
+#conda info --envs
+#conda activate notebook
 
-echo "Conda environment information:"
-conda info
-echo "Conda list:"
-conda list
+#echo "Conda environment information:"
+#conda info
+#echo "Conda list:"
+#conda list
 
 echo "Python version:"
 python --version
@@ -23,12 +23,6 @@ python -c "import matplotlib; print('Matplotlib version:', matplotlib.__version_
 
 # Print package versions for debugging
 #pip list
-
-# Check package versions
-#python -c "import numpy; print(numpy.__version__)"
-#python -c "import pandas; print(pandas.__version__)"
-#python -c "import matplotlib; print(matplotlib.__version__)"
-#python -c "import ipywidgets; print(ipywidgets.__version__)"
 
 # Install and enable Voila
 pip install voila
