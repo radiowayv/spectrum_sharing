@@ -1,16 +1,17 @@
 #!/bin/bash
+set -e
 
-# Install jupyter-server-proxy
-# pip install jupyter-server-proxy
+# Activate the conda environment
+source /srv/conda/etc/profile.d/conda.sh
+conda activate notebook
 
-# If you're using JupyterLab, also install the extension
-# pip install jupyterlab-server-proxy
-# Install packages
-# pip install numpy
+# Print Python and package versions for debugging
+python --version
+pip list
+
+# Check package versions
 python -c "import numpy; print(numpy.__version__)"
-# pip install pandas
 python -c "import pandas; print(pandas.__version__)"
-# pip install matplotlib
 python -c "import matplotlib; print(matplotlib.__version__)"
 
 # Install and enable Voila
@@ -23,16 +24,10 @@ jupyter nbextension enable --py widgetsnbextension
 # If you want to use Voila in JupyterLab
 # jupyter labextension install @jupyter-voila/jupyterlab-preview
 
-# Check NumPy dependencies
-# pip list
-# pip check numpy
-
 # Optionally, if you need specific Voila templates
 # pip install voila-materialstream
 # pip install voila-vuetify
 
 # Clean up (optional, but can help reduce image size)
-# jupyter lab clean
-# jlpm cache clean
 pip cache purge
 rm -rf ~/.cache/yarn
