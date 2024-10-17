@@ -31,7 +31,8 @@ pip install voila
 jupyter server extension enable voila --sys-prefix
 
 # Enable the notebook extension for interactive widgets
-jupyter nbextension enable widgetsnbextension --py --sys-prefix
+jupyter nbextension list
+#jupyter nbextension enable widgetsnbextension --py --sys-prefix
 
 # If you want to use Voila in JupyterLab
 # jupyter labextension install @jupyter-voila/jupyterlab-preview
