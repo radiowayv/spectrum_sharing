@@ -36,7 +36,8 @@ To use these notebooks, you'll need:
 3. Run the cells in the notebook to execute the code and see the results.
 
 ## Notebook Descriptions
-- `Draft_DSS_Algorithm`: working copy of the code for a closed-loop Dynamic Spectrum Sharing algorithm
+- `DSS_Algorithm`: experimental algorithms for a closed-loop Dynamic Spectrum Sharing system
+- `antenna_pattern`: generates antenna patterns based on ITU-R F.1336.5
 - More notebooks to come
 
 ## Contributors
