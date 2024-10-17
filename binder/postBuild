@@ -28,7 +28,7 @@ python -c "import ipywidgets; print('IPyWidgets version:', ipywidgets.__version_
 
 # Install and enable Voila
 pip install voila
-jupyter serverextension enable voila --sys-prefix
+jupyter server extension enable voila --sys-prefix
 
 # Enable the notebook extension for interactive widgets
 jupyter nbextension enable --py widgetsnbextension
